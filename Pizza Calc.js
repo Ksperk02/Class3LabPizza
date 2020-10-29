@@ -8,3 +8,11 @@ function pizzaCalc() {
 
     alert("Y'all owe " + final + "$ each, my guy.")
 }
+
+function init() {
+
+    $("#button").click(pizzaCalc);
+
+}
+
+$(init);
